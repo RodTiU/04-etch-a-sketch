@@ -15,7 +15,18 @@
   <body>
     <header id="title"><h1>Etch a sketch</h1></header>
     <div class="container-canvas">
-      <div class="buttons"><button>Reset</button></div>
+      <div class="options">
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="50"
+          class="slider"
+          id="myRange"
+        />
+
+        <div class="buttons"><button class="reset">Reset</button></div>
+      </div>
       <div id="canvas"></div>
     </div>
     <script src="./main.js"></script>
