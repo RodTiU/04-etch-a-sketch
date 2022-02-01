@@ -16,13 +16,16 @@ body	styles/styles.css	/^body {$/;"	s
 button	styles/styles.css	/^button {$/;"	s
 canvas	index.html	/^      <div id="canvas"><\/div>$/;"	I
 canvas	main.js	/^const canvas = document.querySelector("#canvas");$/;"	C
-canvasElementCreator	main.js	/^const canvasElementCreator = (n) => {$/;"	C
-canvasElements	main.js	/^const canvasElements = document.querySelectorAll("div.canvas-element");$/;"	C
+canvasElementCreator	main.js	/^const canvasElementCreator = (e) => {$/;"	C
 canvasSize	main.js	/^const canvasSize = `${pixels}px`;$/;"	C
+elements	main.js	/^const elements = document.querySelectorAll("div.canvas-element");$/;"	C
 hoverRandomColors	main.js	/^const hoverRandomColors = (e) => {$/;"	C
+initialElements	main.js	/^const initialElements = 10;$/;"	C
 myRange	index.html	/^          id="myRange"$/;"	I
-numberOfElements	main.js	/^  const numberOfElements = n ** 2;$/;"	C
+numberOfElements	main.js	/^  const numberOfElements = Number(e) ** 2;$/;"	C
+numberOfSquaresPerSide	main.js	/^const numberOfSquaresPerSide = Number(initialElements);$/;"	C
 pixels	main.js	/^const pixels = 550;$/;"	C
 randomColor	main.js	/^  const randomColor = Math.floor(16 ** 6 * Math.random()).toString(16);$/;"	C
-resetButton	main.js	/^const resetButton = document.querySelector(".reset");$/;"	C
+resetButton	main.js	/^const resetButton = document.querySelector(".clear");$/;"	C
+slideButton	main.js	/^const slideButton = document.querySelector("input");$/;"	C
 title	index.html	/^    <header id="title"><h1>Etch a sketch<\/h1><\/header>$/;"	I
